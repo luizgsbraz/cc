@@ -1,0 +1,11 @@
+Este Pendrive deve ter sido gerado com tabela de partição msdos (MBR) e uma única partição NTFS. 
+Assim, terá maior portabilidade além de permitir a criação de arquivos de mais de 4GB 
+
+tecla windows+x
+windows power shell (admin) 
+d:
+systeminfo.exe > systeminfo.txt
+type systeminfo.txt para verificar tipo de sistema 
+.\TIPO_DE_SISTEMA\DumpIt.exe /N /O alvo.bin
+.\TIPO_DE_SISTEMA\DumpIt.exe /N /O alvo_raw.bin
+
