@@ -7,5 +7,4 @@ d:
 systeminfo.exe > systeminfo.txt
 type systeminfo.txt para verificar tipo de sistema 
 .\TIPO_DE_SISTEMA\DumpIt.exe /N /O alvo.bin
-.\TIPO_DE_SISTEMA\DumpIt.exe /N /O alvo_raw.bin
 
